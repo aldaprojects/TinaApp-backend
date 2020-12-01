@@ -16,4 +16,3 @@ func (u UserStorageService) CreateUser() {
 func (u UserStorageService) GetUser() {
 	fmt.Println("Get User MYSQL")
 }
-

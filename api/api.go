@@ -8,7 +8,7 @@ import (
 	"github.com/aldaprojects/tinaap/internal/storage"
 )
 
-func Start()  {
+func Start() {
 	db := storage.ConnectToDB()
 	defer db.Close()
 
